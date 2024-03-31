@@ -1,7 +1,14 @@
 body {
-    background-color: firebrick;
-    margin: 0 8rem;
+    background-color: black;
+    margin: 0;
     display: flex;
+    justify-content: center;
+}
+
+.page-center {
+    display: flex;
+    background-color: firebrick;
+    margin: 0 10rem;
 }
 
 *, *::before, *::after {
