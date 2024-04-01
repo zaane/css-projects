@@ -3,27 +3,35 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-}
-
-.page-center {
-    display: flex;
-    background-image: url('./assets/waterfall.jpg');
-    background-size: contain;
-    background-position: left;
-    /* max-width: 1000px; */
-    margin: 0 10rem;
+    font-family: system-ui;
 }
 
 *, *::before, *::after {
     box-sizing: border-box;
   }
 
+.page-center {
+    display: flex;
+    background-image: url('./assets/waterfall.jpg');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: top 0px left -20%;
+    /* max-width: 1000px; */
+    margin: 0 10rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 100vh;
+}
+
 .banner {
-    flex-grow: 1;
-    min-width: 300px;
     background-color: rgb(0, 0, 0, 0.5);
-    height: 8rem;
-    margin-top: 8rem;
+    padding: 0px 8rem;
+    margin-top: 50%;
 }
 
 .banner-text {
@@ -32,8 +40,6 @@ body {
 }
 
 .image-credit {
-    position: absolute;
-    bottom: 1em;
     color: white;
     font-size: 0.75em
 }
@@ -42,7 +48,7 @@ body {
     color: white;
 }
 
-.overlay {
+.right {
     margin: 0;
     flex-grow: 1;
     height: 100vh;
