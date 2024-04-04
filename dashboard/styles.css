@@ -61,7 +61,7 @@ body {
 .header> * {
     display: flex;
     gap: 0.5rem;
-    margin: 1rem 0px;
+    margin: 0.5rem 0px;
     align-items: center;
 }
 
@@ -167,7 +167,8 @@ ul {
 
     padding: 1.2rem;
     display: grid;
-    grid-template-rows: 8fr 1fr; 
+    grid-template-rows: 6fr 1fr; 
+    font-size: 1rem;
 }
 
 .card svg {
