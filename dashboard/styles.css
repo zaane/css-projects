@@ -139,6 +139,10 @@ ul {
     padding: 1.2rem;
 }
 
+.card svg {
+    height: 1.5rem;
+}
+
 .content {
     background-color: #e3e8f0;
     padding: 1.2rem;
