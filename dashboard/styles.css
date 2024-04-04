@@ -88,7 +88,7 @@ body {
 }
 
 .avatar {
-    fill: #e6c741;
+    fill: #FFB30F;
 }
 
 .account .avatar {
@@ -205,6 +205,11 @@ ul {
 
 
 
+.social {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .announcements.card {
     display: flex;
     flex-direction: column;
@@ -232,9 +237,49 @@ ul {
     background: #ddd;
 }
 
-
-
-.social {
-    display: grid;
-    grid-template-columns: 1fr;
+.trend.card {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
+
+.trending-user {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.trending-user .user-info {
+    font-size: 0.75rem;
+}
+
+.user-info > .user-name {
+    font-weight: bold;
+}
+
+.user-info > .tagline {
+    color: #666;
+}
+
+.trend .avatar {
+    height: 3rem;
+}
+
+
+.trending-user:nth-child(1) > .avatar{
+    fill: #32936F;
+
+}
+.trending-user:nth-child(2) > .avatar{
+    fill: #FFB30F;
+}
+.trending-user:nth-child(3) > .avatar{
+    fill: #2A1F2D;
+}
+.trending-user:nth-child(4) > .avatar{
+    fill: #2B59C3;
+}
+.trending-user:nth-child(5) > .avatar{
+    fill: #B22222;
+}
+
