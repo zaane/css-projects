@@ -70,6 +70,21 @@ ul {
     maybe because grid column is too narrow? */
 }
 
+.sidebar > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+}
+
+.sidebar > ul > li > svg {
+    height: 1.25em;
+    display: inline;
+    fill: white;
+}
+
+
+
 .card {
     background-color: white;
     border-radius: 0.75rem;
