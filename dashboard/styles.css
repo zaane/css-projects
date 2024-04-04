@@ -59,12 +59,14 @@ ul {
 .card {
     background-color: white;
     border-radius: 0.75rem;
+    padding: 1.2rem;
 }
 
 .content {
     background-color: #e3e8f0;
-
+    padding: 1.2rem;
     display: grid;
+    gap: 1rem;
     grid-template-columns: 3fr 1fr;
 }
 
@@ -77,4 +79,5 @@ ul {
     gap: 10px;
     grid-template-columns: 1fr 1fr;
 }
+
 
