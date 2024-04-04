@@ -110,7 +110,8 @@ ul {
 .sidebar>ul {
     line-height: 2.2;
     font-size: 1.25rem;
-    margin: 3rem auto;
+    margin-left: 0px;
+    padding: 2rem;
     /* "communities" butts against the right side on zoom
     maybe because grid column is too narrow? */
 }
@@ -119,10 +120,11 @@ ul {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    margin: 0px;
 
 }
 
-.sidebar>ul>li>svg {
+.sidebar svg {
     height: 1.25em;
     display: inline;
     fill: white;
@@ -133,6 +135,7 @@ ul {
 .card {
     background-color: white;
     border-radius: 0.75rem;
+    /* border-left: 4px solid #e6b737; */
     padding: 1.2rem;
 }
 
