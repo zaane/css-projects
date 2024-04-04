@@ -40,7 +40,7 @@ body {
 }
 
 .sidebar {
-    background-color: #468fd2;
+    background-color: #1992d4;
     color: white;
     font-weight: 500;
     grid-row: 1/3;
@@ -54,6 +54,20 @@ body {
 
 ul {
     list-style: none;
+}
+
+.sidebar > .logo {
+    text-align: center;
+    margin: 1rem;
+}
+
+
+.sidebar > ul {
+    line-height: 2.2;
+    font-size: 1.25rem;
+    margin: 3rem auto;
+    /* "communities" butts against the right side on zoom
+    maybe because grid column is too narrow? */
 }
 
 .card {
@@ -70,9 +84,6 @@ ul {
     grid-template-columns: 3fr 1fr;
 }
 
-.projects {
-    grid-row: 1 / 3;
-}
 
 .projects-grid {
     display: grid;
@@ -80,4 +91,7 @@ ul {
     grid-template-columns: 1fr 1fr;
 }
 
-
+.social {
+    display: grid;
+    grid-template-columns: 1fr;
+}
