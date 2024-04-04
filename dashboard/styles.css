@@ -156,9 +156,6 @@ ul {
     fill: white;
 }
 
-
-
-
 .card {
     background-color: white;
     border-radius: 0.75rem;
@@ -178,15 +175,19 @@ ul {
 .card-buttons {
     display: flex;
     justify-content: right;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .content {
     background-color: #e3e8f0;
     padding: 1.2rem;
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
     grid-template-columns: 3fr 1fr;
+}
+
+.content h2 {
+    margin: 0.5rem auto;
 }
 
 
@@ -195,6 +196,43 @@ ul {
     gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
 }
+
+.project p {
+    color: #666;
+}
+
+
+
+
+
+.announcements.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-item {
+    font-size: 0.75rem;
+    margin: 0.25rem auto;
+}
+
+.news-title {
+    font-weight: bold;
+}
+
+.news-text {
+    color: #666;
+
+}
+
+.divider {
+    height: 2px;
+    width: 105%;
+    align-self: center;
+    margin: 6px 0;
+    background: #ddd;
+}
+
+
 
 .social {
     display: grid;
