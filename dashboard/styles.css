@@ -137,10 +137,18 @@ ul {
     border-radius: 0.75rem;
     /* border-left: 4px solid #e6b737; */
     padding: 1.2rem;
+    display: grid;
+    grid-template-rows: 8fr 1fr; 
 }
 
 .card svg {
     height: 1.5rem;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: right;
+    gap: 0.5rem;
 }
 
 .content {
