@@ -39,6 +39,7 @@ body {
 }
 
 .sidebar {
+    position: relative;
     background-color: #1992d4;
     color: white;
     font-weight: 500;
@@ -162,6 +163,8 @@ ul {
     background-color: white;
     border-radius: 0.75rem;
     /* border-left: 4px solid #e6b737; */
+    box-shadow: 3px 3px 5px #ccc;
+
     padding: 1.2rem;
     display: grid;
     grid-template-rows: 8fr 1fr; 
@@ -188,7 +191,7 @@ ul {
 
 .projects-grid {
     display: grid;
-    gap: 10px;
+    gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
 }
 
