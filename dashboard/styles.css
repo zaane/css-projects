@@ -46,10 +46,11 @@ body {
 }
 
 .header {
+    position: relative;
     grid-column: 2 / 3;
-
     display: grid;
     grid-template-columns: 2fr 1fr;
+    box-shadow: 0px 3px 5px #ccc;
 }
 
 .search {
@@ -67,6 +68,7 @@ body {
 .greeting {
     margin-left: 2rem;
 }
+
 .header > .account,
 .buttons {
     margin-right: 2rem;
@@ -84,7 +86,28 @@ body {
     padding: 0.25rem 0.5rem;
 }
 
+.avatar {
+    fill: #e6c741;
+}
 
+.account .avatar {
+    height: 3.5rem;
+}
+
+.header .account {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.greeting .avatar {
+    height: 5rem;
+}
+
+.greeting-text .hello {
+    font-weight: bold;
+    font-size: 0.75rem;
+}
 
 .header button {
     background-color: #1992d4;
@@ -96,6 +119,8 @@ body {
     border-radius: 1.75rem;
     flex: 1;
 }
+
+
 
 ul {
     list-style: none;
@@ -129,6 +154,7 @@ ul {
     display: inline;
     fill: white;
 }
+
 
 
 
