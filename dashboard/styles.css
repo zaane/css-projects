@@ -159,13 +159,17 @@ ul {
 .card {
     background-color: white;
     border-radius: 0.75rem;
-    /* border-left: 4px solid #e6b737; */
     box-shadow: 3px 3px 5px #ccc;
-
     padding: 1.2rem;
     display: grid;
     grid-template-rows: 6fr 1fr; 
     font-size: 1rem;
+}
+
+.project.card {
+    border-left: 8px solid #e6b737;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .card svg {
