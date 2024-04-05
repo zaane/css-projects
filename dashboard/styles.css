@@ -172,6 +172,12 @@ ul {
     border-bottom-left-radius: 8px;
 }
 
+.project.card:hover {
+    transform: translateX(-2px) translateY(-4px);
+    box-shadow: 5px 5px 5px #ccc;
+    box-shadow: ;
+}
+
 .card svg {
     height: 1.5rem;
 }
