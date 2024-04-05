@@ -167,6 +167,12 @@ ul {
 }
 
 .project.card {
+    border-left: 8px solid #bbb;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.project.card.selected {
     border-left: 8px solid #e6b737;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -175,7 +181,6 @@ ul {
 .project.card:hover {
     transform: translateX(-2px) translateY(-4px);
     box-shadow: 5px 5px 5px #ccc;
-    box-shadow: ;
 }
 
 .card svg {
